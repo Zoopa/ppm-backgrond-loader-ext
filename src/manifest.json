@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "powerplaymanager-info",
-  "description": "powerplaymanager-info",
+  "name": "PPM-Background-Info",
+  "description": "Load information about your opponents in the background",
   "version": "1.0",
 
   "permissions": [
