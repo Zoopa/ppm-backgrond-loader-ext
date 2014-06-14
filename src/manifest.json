@@ -1,0 +1,55 @@
+{
+  "manifest_version": 2,
+
+  "name": "powerplaymanager-info",
+  "description": "powerplaymanager-info",
+  "version": "1.0",
+
+  "permissions": [
+    "http://*.skijumpmania.com/*",
+    "http://*.racingduel.com/*",
+    "http://*.tennisduel.com/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.skijumpmania.com/duel/duel*",
+        "http://*.skijumpmania.com/duel/league*",
+        "http://*.skijumpmania.com/news/profile*",
+        "http://*.skijumpmania.com/news/clubsleague*"
+      ],
+      "js": [
+        "types/skijumpmania.js",
+        "player.js",
+        "main.js"
+      ]
+    },
+    {
+      "matches": [
+        "http://*.racingduel.com/duel/duel*",
+        "http://*.racingduel.com/duel/league*",
+        "http://*.racingduel.com/news/profile*",
+        "http://*.racingduel.com/news/clubsleague*"
+      ],
+      "js": [
+        "types/racingduel.js",
+        "player.js",
+        "main.js"
+      ]
+    },
+    {
+      "matches": [
+        "http://*.tennisduel.com/duel/duel*",
+        "http://*.tennisduel.com/duel/league*",
+        "http://*.tennisduel.com/news/profile*",
+        "http://*.tennisduel.com/news/clubsleague*"
+      ],
+      "js": [
+        "types/tennisduel.js",
+        "player.js", 
+        "main.js"
+      ]
+    }
+  ]
+}
