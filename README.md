@@ -1,4 +1,8 @@
-This Chrome Extension adds a simple MouseOver-Event to all Jump/Play buttons. When moving your mouse over such a button, the extension will load player information in the backgroud, e.g., 
+This Chrome Extension adds a simple MouseOver-Event to all Jump/Play buttons. 
+
+[Download this extension from the Chrome Web Store](https://chrome.google.com/webstore/detail/ppm-background-info/igfkpefnedpkkcdgpmnlmbnnblooihck "Download from Chrome Web Store")
+
+When moving your mouse over such a button, the extension will load player information in the backgroud, e.g., 
 
 * Opponent's / Your Stats
 * Opponent's / Your Skills
